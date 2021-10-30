@@ -1,0 +1,212 @@
+/*CSS pour la page principale*/
+
+body {
+	font-family:'Source code pro', Copperplate Gothic Light;
+	margin:0px;
+	padding:0px;
+	background-color:black;
+}
+
+.div_info{
+	border:solid invisible;
+	margin-top:-77px;
+	padding:470px;
+}
+.div_info_texte{					/*texte*/
+	border:solid invisible;
+	margin-top:-450px;
+	margin-left:-500px;
+	margin-bottom:-70px;
+	padding:50px;
+	color:white;
+	background-color:black;
+	border-radius:10px;
+}
+.div_info_texte_photo{				/*photo siege social*/
+	border:solid invisible;
+	padding:120px;
+	position:relative;
+	float:left;
+	margin-top:20px;
+	margin-left:0px;
+	background:url(../Image/siege-social.jpg);
+	width:125%;
+	height:25vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:2px;
+}
+
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	transition:0.6s;
+	padding:20px 100px;
+	z-index:100000;
+}
+header.sticky{
+	padding:5px 100px;
+	background:#fff;
+}
+header.sticky .logo,
+header.sticky ul li a{
+	color:black;
+}
+
+header .logo{
+	position:relative;
+	font-weight:700;
+	color:#fff;
+	text-decoration:none;
+	font-size:2em;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	transition:0.1;
+	font-style:italic;
+}
+header ul{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+header ul li {
+	position:relative;
+	list-style:none;
+}
+header ul li a{
+	position:relative;
+	margin:0 1px;
+	text-decoration:none;
+	color:white;
+	letter-spacing:1px;
+	font-weight:500px;
+	transition:0.3px;
+}
+.banner{
+	position:relative;
+	width:100%;
+	height:100vh;
+	background:url(../Image/photo-fond.jpg);
+	background-size:cover;
+}
+
+
+nav{						/*Barre de navigation*/
+	width:70%;
+	background-color:invisible;
+}
+
+nav > ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav > ul::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+nav > ul > li{
+	float:left;
+	position:relative;
+}
+
+nav > ul > li > a{			/*couleur police menu nom*/
+	padding:20px 30px;
+	color:white;		
+}
+
+nav > ul > li:hover a{
+	padding:15px 30px 20px 30px;
+}
+
+nav li{
+	list-style-type:none;
+	padding:10px;
+}
+
+.submenu{
+	display:none;
+}
+
+nav a{
+	display:inline-bock;
+	text-decoration:none;
+}
+
+nav li:hover .submenu{
+	display:inline-block;
+	position:absolute;
+	top:100%;
+	left:0px;
+	padding:0px;
+	z-index:1000;
+	width:300%;
+}
+
+.submenu li{				/*couleur trait*/
+	border-bottom:0px solid white;
+}
+
+.submenu li a{				/*couleur  police déroulant*/
+	padding:15px 30px;
+	font-size:13px;
+	color:white; 	
+	width:270px;
+}
+
+.menu_html:hover{
+	background-color:invisible;
+}
+.menu_CSS:hover{
+	background-color:invisible;
+}
+.menu_javascript:hover{
+	background-color:invisible;
+}
+.menu_html .submenu{		/*couleur fond déroulant*/
+	background-color:invisible;		
+}
+.menu_CSS .submenu{
+	background-color:invisible;
+}
+.menu_javascript .submenu{
+	background-color:invisble;
+}
+.submenu li:hover a{		/*couleur passage souris*/
+	color:white;	
+	font-weight:bold;
+}
+.menu_html .submenu li:hover{/*couleur passage souris fond*/
+	background-color:invisble;	
+}
+.menu_CSS .submenu li:hover{
+	background-color:invisible;
+}
+.menu_javascript .submenu li:hover{
+	background-color:invisible;
+}
+
+.div_Entete{ 				/* Entete blache du menu déroulant */
+	background-color:white;
+	border:solid white;
+	margin-top:0;
+	margin-right:0%;
+	margin-left:0%;
+	height:10%;
+	width:100%;
+	position:fixed;
+}
+
+.divImage_Bose1{ 			/* Image bose fond */
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+}

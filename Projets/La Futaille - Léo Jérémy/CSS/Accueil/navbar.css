@@ -1,0 +1,115 @@
+
+nav .menuItems1 a { /*Style du li "Vins rouges"*/
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    position: relative;
+}
+nav .menuItems1 a::before {
+    content: attr(data-item);
+    transition: 1s;
+    color: rgb(149, 54, 179);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+nav .menuItems1 a:hover::before {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+nav .menuItems2 a { /*Style du li "Vins blancs"*/
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    position: relative;
+}
+nav .menuItems2 a::before {
+    content: attr(data-item);
+    transition: 1s;
+    color: rgb(178, 180, 54);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+nav .menuItems2 a:hover::before {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+nav .menuItems3 a { /*Style du li "Cidres"*/
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    position: relative;
+}
+nav .menuItems3 a::before {
+    content: attr(data-item);
+    transition: 1s;
+    color: rgb(56, 160, 35);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+nav .menuItems3 a:hover::before {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+nav .menuItems4 a{ /*Style du li "Nous contacter"*/
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    position: relative;
+}
+
+nav .menuItems4 a::before {
+    content: attr(data-item);
+    transition: 1s;
+    color: maroon;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    font-size: 24px;
+    overflow: hidden;
+}
+nav .menuItems4 a:hover::before {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+nav .menuItems { /*Style principal des*/
+    list-style: none;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 22%;
+}
+nav .menuItems li {
+    margin: 50px;
+}

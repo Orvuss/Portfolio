@@ -1,0 +1,60 @@
+#searchbox { /*Barre de recherche*/
+    padding: 20px 10px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: -7%;
+    margin-left: -4%;
+}
+
+#searchbox input {
+outline: none;
+}
+
+#searchbox input[type= "text"] {
+background: url(http://2.bp.blogspot.com/-xpzxYc77ack/VDpdOE5tzMI/AAAAAAAAAeQ/TyXhIfEIUy4/s1600/search-dark.png) no-repeat 10px 6px #fff;
+border-width: 1px;
+border-style: solid;
+border-color: #fff;
+font: bold 12px Arial,Helvetica,Sans-serif;
+color: #bebebe;
+width: 55%;
+padding: 8px 15px 8px 30px;
+border-radius: 5px;
+}
+
+#button-submit {
+background: maroon;
+border-width: 0px;
+padding: 9px 0px;
+width: 27%;
+cursor: pointer;
+font: bold 12px Arial, Helvetica;
+color: #fff;
+text-shadow: 0 1px 0 #555;
+border-radius: 5px;
+}
+
+#button-submit:hover {
+background: rgb(59, 0, 0);
+}
+
+#button-submit:active {
+background: rgb(32, 0, 0);
+outline: none;
+}
+
+#button-submit::-moz-focus-inner {
+border: 0;
+}
+
+input:focus::-webkit-input-placeholder {
+color: transparent;
+}
+
+input:focus:-moz-placeholder {
+color: transparent;
+}
+
+input:focus::-moz-placeholder {
+color: transparent;
+}

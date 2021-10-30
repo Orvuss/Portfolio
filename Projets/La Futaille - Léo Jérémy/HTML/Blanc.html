@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>
+            La futaille - Vins blancs
+        </title>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/09b9698f13.js" crossorigin="anonymous"></script> <!--Lien pour fontawesome-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/barre.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/bouton.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/tout.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/entete.css">
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/slide.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/recherche.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/navbar.css'>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Login/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Blanc/produitsblanc.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="../JavaScript/recherche.js"></script>
+        <link rel="icon" type="image/png" href="../Image/logo.jpg"> <!--Favicon-->
+    </head>
+    <body>
+        <div class="tout">
+            <div class="entete">
+                <div class="entete_nomSite">
+                    <a href="Accueil.html"><p>La <span>Fut</span>aille</p></a>
+                </div>
+                <div class="entete_navbar"> <!--Barre de recherche-->
+                    <form id="searchbox" » method= "get">
+                        <input id="search" name= "q" type= "text" size= "15" placeholder= "Tapez ici..."  onchange="ouvrirPage()"/>
+                        <input id= "button-submit" onclick="ouvrirPage()" type= "submit" value= "Chercher" />
+                    </form>
+                </div>
+                <div class="entete_panier"><a href="Panier.html">  <!--Bouton panier-->
+                    <button class="button button--sacnite button--round-s button--inverted"><i class="fas fa-shopping-cart"></i><span>User</span></button>
+                </a></div>
+                <div class="entete_login"><a href="Login.html"> <!--Bouton login-->
+                    <button class="button button--sacnite button--round-l"><i class="fas fa-user"></i><span>User</span></button>
+                </a></div>
+            </div>
+        </div>
+        <div class="search"> <!--Barre de navigation-->
+            <section>
+                <nav>
+                    <ul class="menuItems">
+                        <li class="menuItems1"><a href='Rouge.html' data-item='Vins'>Vins rouges</a></li>
+                        <li class="menuItems2"><a href='Blanc.html' data-item='Vins'>Vins blancs</a></li>
+                        <li class="menuItems3"><a href='Cidre.html' data-item='Cidres'>Cidres</a></li>
+                        <li class="menuItems4"><a href='Contact.html' data-item='Nous'>Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <div class="big">
+            <div class="annonce">
+                <div class="unrouge">   <!--Vin blanc 1-->
+                    <img src="../Image/hortus.png">
+                    <div class="unrouge_desc">
+                        <span class="unrouge_desc_titre">Grande cuvée blanc 2019 - domaine de l'hortus</span><br><br>
+                        <span class="unrouge_desc_texte">LANGUEDOC-ROUSILLON</span><br>
+                        <span class="unrouge_litre">Bouteille 75cl</span>
+                    </div>
+                    <div class="unrouge_payer">
+                        <span class="unrouge_payer_prix">23,25 €</span>
+                        <div class="unrouge_payer_bouton">
+                            <button class="boutonb boutonb boutonb-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="deuxrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">Avec sa magnifique robe jaune or et son nez aux arômes appétissants de mirabelle, de brioche et d’amande, 
+                            ce Meursault premier cru offre aussi une bouche ample, avec du gras et une belle persistance.
+                        </span>
+                    </div>
+                </div>
+                <div class="troisrouge">    <!--Vin blanc 3-->
+                    <img src="../Image/corton.png">
+                    <div class="troisrouge_desc">
+                        <span class="troisrouge_desc_titre">Corton-Charlemagne Grand Cru 2017 - Joseph Drouhin</span><br><br>
+                    <span class="troisrouge_desc_texte">ALOXE-CORTON</span><br>
+                    <span class="troisrouge_litre">Bouteille 75cl</span>
+                    </div>
+                    <div class="partenariat">   <!--Partenariat avec Poelon-->
+                        <span>Se déguste avec de la</span>
+                        <form method="get" action="../Poelon/Code/HTML/Page-Fromage.html">
+                            <button class="partenariat_bouton">Raclette au foin</button>
+                        </form>
+                    </div>
+                    <div class="troisrouge_payer">
+                        <span class="troisrouge_payer_prix">252,03 €</span>
+                        <div class="troisrouge_payer_bouton">
+                            <button class="boutonb boutonb boutonb-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="annonce">
+                <div class="unrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">La Grande Cuvée de l'Hortus en blanc s'offre encore à nous comme un véritable petit bijou du terroir. 
+                            Cet assemblage vinifié à majorité avec du Chardonnay élevé en fut de chêne, fait de ce vin un grand vin de garde aux arômes de toasts grillés, 
+                            de mandarine et d'abricot.
+                        </span>
+                    </div>
+                </div>
+                <div class="deuxrouge"> <!--Vin blanc 2-->
+                    <img src="../Image/meursault.png">
+                    <div class="deuxrouge_desc">
+                        <span class="deuxrouge_desc_titre">Meursault Perrieres - 1er Cru</span><br><br>
+                        <span class="deuxrouge_desc_texte">BOURGOGNE - CHARDONNAY AOC</span><br>
+                        <span class="deuxrouge_litre">Bouteille 75cl</span>
+                    </div>
+                    <div class="deuxrouge_payer">
+                        <span class="deuxrouge_payer_prix">84,90 €</span>
+                        <div class="deuxrouge_payer_bouton">
+                            <button class="boutonb boutonb boutonb-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="troisrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">Un très grand cru de Bourgogne, à déguster avec recueillement. La robe a des reflets d'or. 
+                            Le nez est soutenu, avec des tonalités subtiles de roses, d'amandes fraîches, d'agrumes et de miel, de bois rare et d'épices.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

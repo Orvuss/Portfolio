@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>
+            La futaille - Cidre
+        </title>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/09b9698f13.js" crossorigin="anonymous"></script> <!--Lien pour fontawesome-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/tout.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/barre.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/entete.css">
+       <link rel="stylesheet" type="text/css" href="../CSS/Accueil/bouton.css"/>
+       <link rel="stylesheet" type="text/css" href='../CSS/Accueil/slide.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/recherche.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/navbar.css'>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Login/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Cidre/produitscidre.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="../JavaScript/recherche.js"></script>
+        <link rel="icon" type="image/png" href="../Image/logo.jpg"> <!--Favicon-->
+    </head>
+    <body>
+        <div class="tout">
+            <div class="entete">
+                <div class="entete_nomSite">
+                    <a href="Accueil.html"><p>La <span>Fut</span>aille</p></a>
+                </div>
+                <div class="entete_navbar"> <!--Barre de recherche-->
+                    <form id="searchbox" » method= "get">
+                        <input id="search" name= "q" type= "text" size= "15" placeholder= "Tapez ici..."  onchange="ouvrirPage()"/>
+                        <input id= "button-submit" onclick="ouvrirPage()" type= "submit" value= "Chercher" />
+                    </form>
+                </div>
+                <div class="entete_panier"><a href="Panier.html">  <!--Bouton panier-->
+                    <button class="button button--sacnite button--round-s button--inverted"><i class="fas fa-shopping-cart"></i><span>User</span></button>
+                </a></div>
+                <div class="entete_login"><a href="Login.html"> <!--Bouton login-->
+                    <button class="button button--sacnite button--round-l"><i class="fas fa-user"></i><span>User</span></button>
+                </a></div>
+            </div>
+        </div>
+        <div class="search"> <!--Barre de navigation-->
+            <section>
+                <nav>
+                    <ul class="menuItems">
+                        <li class="menuItems1"><a href='Rouge.html' data-item='Vins'>Vins rouges</a></li>
+                        <li class="menuItems2"><a href='Blanc.html' data-item='Vins'>Vins blancs</a></li>
+                        <li class="menuItems3"><a href='Cidre.html' data-item='Cidres'>Cidres</a></li>
+                        <li class="menuItems4"><a href='Contact.html' data-item='Nous'>Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <div class="big">
+            <div class="annonce">
+                <div class="unrouge">   <!--Cidre 1-->
+                    <img src="../Image/Cidre_Fouesnant.png">
+                    <div class="unrouge_desc">
+                        <span class="unrouge_desc_titre">Cidre de Fouesnant - Dur</span><br><br>
+                        <span class="unrouge_desc_texte">MANOIR DE KINKIZ</span><br>
+                        <span class="unrouge_litre">Bouteille 75cl</span>
+                    </div>
+                    <div class="partenariat">   <!--Partenariat avec Poelon-->
+                        <span>S'accompagne avec de la</span>
+                        <form method="get" action="../Poelon/Code/HTML/Page-Charcutrie.html">
+                            <button class="partenariat_bouton">Charcuterie</button>
+                        </form>
+                    </div>
+                    <div class="unrouge_payer">
+                        <span class="unrouge_payer_prix">3,50 €</span>
+                        <div class="unrouge_payer_bouton">
+                            <button class="boutonc boutonc boutonc-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="deuxrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">Ce cidre doux est élaboré à partir de pommes entières. Composé d'un mélange de différentes variétés de pommes 
+                            à coteaux du verger ne pouvant être destinées à la vente au détail, ce cidre fleuri et fruité saura vous dévoiler son parfum subtil et délicat. 
+                        </span>
+                    </div>
+                </div>
+                <div class="troisrouge">    <!--Cidre 3-->
+                    <img src="../Image/glace.png">
+                    <div class="troisrouge_desc">
+                        <span class="troisrouge_desc_titre">Cidre de glace Neige "Première"</span><br><br>
+                    <span class="troisrouge_desc_texte">QUÉBEC</span><br>
+                    <span class="troisrouge_litre">Bouteille 375ml</span>
+                    </div>
+                    <div class="troisrouge_payer">
+                        <span class="troisrouge_payer_prix">24,90 €</span>
+                        <div class="troisrouge_payer_bouton">
+                            <button class="boutonc boutonc boutonc-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="annonce">
+                <div class="unrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">Le cidre de Fouesnant, est un cidre traditionnel brut. La fermentation de ce cidre est lente 
+                            et elle se termine par une prise de mousse naturelle en bouteille de 2 mois et demi environ ce qui lui confère une bulle fine et digeste.
+                        </span>
+                    </div>
+                </div>
+                <div class="deuxrouge">     <!--Cidre 2-->
+                    <img src="../Image/demeter.png">
+                    <div class="deuxrouge_desc">
+                        <span class="deuxrouge_desc_titre">Cidre Doux Demeter</span><br><br>
+                        <span class="deuxrouge_desc_texte">LOIRE-ATLANTIQUE</span><br>
+                        <span class="deuxrouge_litre">Bouteille 75cl</span>
+                    </div>
+                    <div class="deuxrouge_payer">
+                        <span class="deuxrouge_payer_prix">4,46 €</span>
+                        <div class="deuxrouge_payer_bouton">
+                            <button class="boutonc boutonc boutonc-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="troisrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">Découvrez l'emblématique cidre de glace Neige, le tout premier cidre commercialisé au Québec et dans le monde. 
+                            Avec sa couleur jaune aux reflets dorés, il dégage des arômes de compote de pommes avec une éclatante intensité.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

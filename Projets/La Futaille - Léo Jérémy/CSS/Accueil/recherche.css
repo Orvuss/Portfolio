@@ -1,0 +1,10 @@
+.search{ /*Fond de la navbar*/
+    background-color: rgb(65, 0, 0);
+    position: absolute;
+    border: solid;
+    width: 90%;
+    height: 8%;
+    margin-left: 5%;
+    border-radius: 15px;
+    margin-top : -45%;
+}

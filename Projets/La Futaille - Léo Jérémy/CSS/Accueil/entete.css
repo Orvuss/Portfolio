@@ -1,0 +1,54 @@
+/*Création de l'entête principale*/
+.entete{
+    height: 9%;
+    justify-content: space-between;
+    align-items: center;
+    position : relative;
+}
+
+.entete_navbar{ /*Barre de recherche*/
+    padding: 2%;
+    display:flex;
+    float: left;
+    margin-top: -4%;
+    width: 30%;
+}
+
+.entete_nomSite{ /*Nom du site*/
+    height: 91%;
+    border: solid transparent;
+    font-size : 200%;
+    text-align: center;
+    position: relative;
+    width: 10%;
+    margin-left: 45%;
+    color: white;
+}
+
+.entete_nomSite a{ /*Configuration du a du nom du site*/
+    text-decoration: none;
+    color:white;
+}
+
+.entete_panier{ /*Bouton panier*/
+    border: solid transparent;
+    padding: 2%;
+    display: flex;
+    float: right;
+    margin-top: -4%;
+    width: 5%;
+}
+
+.entete_login{ /*Bouton login*/
+    border: solid transparent;
+    padding: 2%;
+    display: flex;
+    float: right;
+    margin-top: -4%;
+    width: 5%;
+}
+
+/*Configuration de la balise <span> en gras*/
+.entete_nomSite span{
+    font-weight : bold;
+}

@@ -1,0 +1,23 @@
+body, html{ /*Configuration du body et html*/
+    margin : 0;
+    padding : 0;
+    font-family: 'Poor Richard';
+    background-color: grey;
+    background-image: url(../../Image/fond_tonneau.jpg);
+    background-size: cover;
+}
+/*Configuration de la balise <p> sur monospace*/
+p{
+    font-family:monospace;
+}
+
+.tout{
+    height : 100%;
+    border : black;
+}
+
+.abus{
+    color : white;
+    margin-left: 33.5%;
+    font-size: 20px;
+}

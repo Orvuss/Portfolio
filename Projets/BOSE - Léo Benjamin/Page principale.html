@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Page principale</title>
+		<meta charset="utf-8">
+			<link type="text/css" rel="stylesheet" href="Css/fichierPP.css"/>
+			<link rel="icon" type="image/png" href="Image/petit_logo.png">
+	</head>
+	<body>
+		<header>
+			<a href="Page principale.html" class="logo">	
+				BOSE
+			</a>
+			<nav>					<!-- barre de navigation -->
+				<ul>
+					<li class="menu_html"><a href="">Produits</a>
+						<ul class="submenu">
+							<li><a href="Page QC 35 II.html">Casque</a></li>
+							<li><a href="Page Soundbar 700.html">Enceinte</a></li>
+						</ul>
+					</li>
+					<li class="menu_javascript"><a href="">Assistance</a>
+						<ul class="submenu">
+							<li><a href="Nous contacter.html">Nous contacter</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="banner"> </section>
+		<script type="text/javascript">			<!-- javascript -->
+			window.addEventListener("scroll", function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky", window.scrollY > 0);
+			
+			})
+		</script>
+		<div class="div_info">					
+			<div class="div_info_texte">		<!-- texte -->
+				<h1><p>INFORMATIONS</p></h1>
+				<h4><p>ENTREPRISE</p></h4>
+				<br/>
+				<p>
+					BOSE corporation plus connu sous le nom de BOSE est une
+					société créée en 1964 par Amar.G Bose. C’est une société privée dont
+					son siège social est basé aux États-Unis et plus précisément dans
+					l’état du Massachusetts. Son activité principale est le matériel de
+					sonorisation professionnelle.
+				</p>
+				<div class="div_info_texte_photo">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+#slider{ /*Style du slide*/
+    overflow : hidden;
+}
+#slider figure{
+    position : relative;
+    width : 500%;
+    margin : 0;
+    left : 0;
+    animation : 20s slider infinite;
+}
+#slider figure img{ /*Images*/
+    width : 20%;
+    float : left;
+    border-radius: 1%;
+}
+
+@keyframes slider{ /*Slide et temps*/
+    0%{
+        left:0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+.theslide{ /*Div du slide*/
+    margin-left : 17.5%;
+    width: 65%;
+    box-align: center;
+    height: 85%;
+    border: solid invisible;
+    margin-top: -40%;
+}

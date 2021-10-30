@@ -1,0 +1,137 @@
+body,html{
+	margin:0;
+	padding:0;
+}
+
+.divBG{
+	background-color:grey;
+	padding:500px;
+	border:solid grey;
+}
+
+.divHaute{
+	border:solid white;
+	background-color:white;
+	margin-top:-505px;
+	margin-left:-505px;
+	margin-right:-505px;
+	padding:10px;
+	position:fixed;
+	width:100%;
+}
+
+.divPhoto{
+	border:solid grey;
+	padding:200px;
+	margin-top:-802px;
+	margin-left:-505px;
+	margin-right:-505px;
+	margin-bottom:-200px;
+}
+
+.photoHolo{
+	width:1520px;
+	margin-left:-200px;
+	margin-top:202px;
+	animation: fadein 0.8s;
+    -moz-animation: fadein 0.8s; /* Firefox */
+    -webkit-animation: fadein 0.8s; /* Safari et Chrome */
+    -o-animation: fadein 0.8s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.Veille{
+	font-family:Magneto;
+	font-size:20px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #3BA2C6;
+}
+
+.divIntro{
+	border-left:solid #2A73AC;
+	border-right:solid #2A73AC;
+	padding:100px;
+	margin-left:-180px;
+	margin-right:-180px;
+	margin-bottom:-10px;
+	font-family:Courier New;
+}
+
+.Intro{
+	text-align:center;
+	font-family:Cooper Black;
+	margin-top:-90px;
+}
+
+.divArticle{
+	border:solid grey;
+	padding:1px;
+	margin-right:170px;
+	margin-left:170px;
+	background-color:black;
+	border-radius: 10px;
+}
+
+.divPagePrincipale{
+	border:solid grey;
+	padding:1px;
+	margin-right:130px;
+	margin-left:130px;
+	background-color:black;
+	border-radius: 10px;
+}
+
+.ancre{
+	font-family:ROG Fonts;
+	font-size:20px;
+	text-align:center;
+	text-shadow: 1px 1px 2px #3BA2C6;
+	color:black;
+}
+
+.divTexte{
+	font-family:Courier New;
+	border-left:solid #2A73AC;
+	border-right:solid #2A73AC;
+	padding:100px;
+	margin-left:-180px;
+	margin-right:-180px;
+	margin-top:-450px;
+	text-align:justify;
+}
+
+.divVideo{
+	border:solid invisible;
+	padding:100px;
+	margin-left:-320px;
+	margin-right:-180px;
+	margin-top:-80px;
+	text-align:center;
+}
+
+.divPhotoArticle1{
+	border:solid invisible;
+	padding:100px;
+	margin-left:-180px;
+	margin-right:-180px;
+	margin-top:-80px;
+	text-align:center;
+}
+
+.divPhotoArticle2{
+	border:solid invisible;
+	padding:100px;
+	margin-left:-220px;
+	margin-right:-180px;
+	margin-top:-80px;
+	text-align:center;
+}
+

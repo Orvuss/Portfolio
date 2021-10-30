@@ -1,0 +1,192 @@
+.grostitre{ /*Titre des mieux notés*/
+    margin-left: 43%;
+    margin-top: 3%;
+}
+.grostitre h1{
+    color: #ccc;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+.annonce{ /*Annonce des produits*/
+    margin-top: 2%;
+    margin-left: 5%;
+    height:60%;
+    width:90%;
+    border:solid invisible;
+    display: flex;
+}
+
+
+/*Carré contenant le vin rouge*/
+
+.bestrouge{
+    margin: 1%;
+    height: 92%;
+    width: 80%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../../Image/fondbois.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.bestrouge img { /*Image*/
+    margin-left: 40%;
+    width: 16%;
+    height: 50%;
+}
+
+.bestrouge_desc{
+    position: relative;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.bestrouge_desc_titre{
+    color: white;
+    font-size: 25px;
+    margin-left: 14%;
+    font-weight: bold;
+}
+
+.bestrouge_desc_texte{
+    color: white;
+    font-size: 20px;
+    margin-left: 18%;
+}
+.bestrouge_litre{
+    color: white;
+    margin-left: 37%;
+}
+
+.bestrouge_payer{
+    display: flex;
+}
+
+.bestrouge_payer_prix{ /*Prix du vin*/
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(196,156,72);
+}
+
+.bestrouge_payer_bouton{ /*Bouton pour acheter*/
+    margin-top: 7%;
+}
+
+
+/*Carré contenant le vin blanc*/
+
+.bestblanc{
+    margin: 1%;
+    height: 92%;
+    width: 80%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../../Image/fondbois.jpg") center no-repeat; /*Image de fond*/
+    background-size: cover;
+}
+
+.bestblanc img { /*Image*/
+    margin-left: 25%;
+    width: 50%;
+    height: 55%;
+}
+
+.bestblanc_desc{
+    position: relative;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.bestblanc_desc_titre{
+    color: white;
+    font-size: 25px;
+    margin-left: 18%;
+    font-weight: bold;
+}
+
+.bestblanc_desc_texte{
+    color: white;
+    font-size: 20px;
+    margin-left: 17.5%;
+}
+.bestblanc_litre{
+    color: white;
+    margin-left: 40%;
+}
+
+.bestblanc_payer{
+    display: flex;
+}
+
+.bestblanc_payer_prix{ /*Prix du vin*/
+    margin-top: 7%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(196,156,72);
+}
+
+.bestblanc_payer_bouton{ /*Bouton pour acheter*/
+    margin-top: 4%;
+}
+
+/*Carré contenant le Cidre*/
+
+.bestcidre{
+    margin: 1%;
+    height: 92%;
+    width: 80%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../../Image/fondbois.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.bestcidre img { /*Image*/
+    margin-left: 25%;
+    width: 45%;
+    height: 55%;
+}
+
+.bestcidre_desc{
+    position: relative;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.bestcidre_desc_titre{
+    color: white;
+    font-size: 25px;
+    margin-left: 27%;
+    font-weight: bold;
+}
+
+.bestcidre_desc_texte{
+    color: white;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.bestcidre_litre{
+    color: white;
+    margin-left: 40%;
+}
+
+.bestcidre_payer{
+    display: flex;
+}
+
+.bestcidre_payer_prix{ /*Prix du vin*/
+    margin-top: 7%;
+    margin-left: 12%;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(196,156,72);
+}
+
+.bestcidre_payer_bouton{ /*Bouton pour acheter*/
+    margin-top: 4%;
+}

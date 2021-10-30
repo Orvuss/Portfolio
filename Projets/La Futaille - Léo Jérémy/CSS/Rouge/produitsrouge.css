@@ -1,0 +1,351 @@
+.big{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: -42%;
+}
+
+.annonce{
+    margin-top: 2%;
+    height:80%;
+    width:50%;
+}
+
+/* Carré contenant le 1er vin rouge */
+
+.unrouge{
+    margin: 1%;
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../../Image/fondbois.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.unrouge img {
+    margin-top: 7%;
+    margin-left: 12%;
+    width: 12%;
+    height: 70%;
+}
+
+.unrouge_desc{
+    position: absolute;
+    margin-top: 5%;
+    height: 20%;
+    margin-left: 14%;
+    width: 30%;
+}
+
+.unrouge_desc_titre{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.unrouge_desc_texte{
+    color: white;
+    font-size: 25px;
+}
+.unrouge_litre{
+    color: white;
+}
+
+.unrouge_payer{
+    position: absolute;
+    display: flex;
+    margin-top: 16%;
+    margin-left: 13%;
+    width: 10%;
+}
+
+.unrouge_payer_prix{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(196,156,72);
+}
+
+.unrouge_payer_bouton{
+    margin-left: 90%;
+    margin-top: -5%;
+}
+
+
+/* Carré contenant le 2ème vin rouge */
+
+.deuxrouge{
+    margin-right: -50%;
+    margin: 1%;
+    height: 65%;
+    width: 98%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../../Image/fondbois.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.deuxrouge img {
+    margin-top: 7%;
+    margin-left: 12%;
+    width: 12%;
+    height: 70%;
+}
+
+.deuxrouge_desc{
+    position: absolute;
+    margin-top: 5%;
+    height: 20%;
+    margin-left: 14%;
+    width: 30%;
+}
+
+.deuxrouge_desc_titre{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.deuxrouge_desc_texte{
+    color: white;
+    font-size: 25px;
+}
+.deuxrouge_litre{
+    color: white;
+}
+
+.deuxrouge_payer{
+    position: absolute;
+    display: flex;
+    margin-top: 16%;
+    margin-left: 13%;
+    width: 10%;
+}
+
+.deuxrouge_payer_prix{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(196,156,72);
+}
+
+.deuxrouge_payer_bouton{
+    margin-left: 90%;
+    margin-top: -5%;
+}
+
+.partenariat{
+    display: flex;
+    position: absolute;
+    margin-top: 12%;
+    height: 20%;
+    margin-left: 14%;
+    width: 30%;
+}
+
+.partenariat span{
+    color: white;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.partenariat_bouton{
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(253, 122, 0);
+    height: 30%;
+    width: 100%;
+    margin-left: 5%;
+    border: 1px solid rgb(148, 71, 0);
+    border-radius: 15px;
+    outline: 0;
+}
+
+.partenariat_bouton:focus, .partenariat_bouton:hover{
+    background-color: rgb(148, 71, 0);
+}
+
+/* Carré contenant le 3ème vin rouge */
+
+.troisrouge{
+    margin: 1%;
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../../Image/fondbois.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.troisrouge img {
+    margin-top: 7%;
+    margin-left: -2%;
+    width: 35%;
+    height: 70%;
+}
+
+.troisrouge_desc{
+    position: absolute;
+    margin-top: 5%;
+    height: 20%;
+    margin-left: 14%;
+    width: 30%;
+}
+
+.troisrouge_desc_titre{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.troisrouge_desc_texte{
+    color: white;
+    font-size: 25px;
+}
+.troisrouge_litre{
+    color: white;
+}
+
+.troisrouge_payer{
+    position: absolute;
+    display: flex;
+    margin-top: 16%;
+    margin-left: 13%;
+    width: 15%;
+}
+
+.troisrouge_payer_prix{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 100%; 
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(196,156,72);
+
+}
+
+.troisrouge_payer_bouton{
+    margin-left: 70%;
+}
+
+/* Histoire des vins (description à coté de leur div) */
+
+
+.unrouge_histoire{
+    margin: 1%;
+    height: 65%;
+    width: 98%;
+    border-radius: 20px;
+    color: #ccc;
+}
+
+.deuxrouge_histoire{
+    margin-right: -50%;
+    margin: 1%;
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+    color: #ccc;
+}
+
+.troisrouge_histoire{
+    margin: 1%;
+    height: 65%;
+    width: 98%;
+    border-radius: 20px;
+    color: #ccc;
+}
+
+.test_desc{
+    position: absolute;
+    margin-top: 7%;
+    height: 20%;
+    margin-left: 5%;
+    width: 40%;
+}
+.test_desc_titre{ /*Description*/
+    margin-right: 10%;
+    font-size: 30px;
+}
+
+/*//////////////////////////*/
+
+.boutonr {
+	border: none;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	transition: all 0.3s;
+	border-radius: 15px;
+}
+
+.boutonr:after {
+	content: '';
+	position: absolute;
+	transition: all 0.3s;
+}
+
+.boutonr:before {
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+}
+/*Séparation de l'icône et du bouton*/
+.boutonr-sep {
+	padding: 12px 50px 15px 100px;
+}
+
+.boutonr-sep:before {
+	background: rgba(0,0,0,0.15);
+}
+/*Style général du bouton*/
+.boutonr {
+	background: rgb(62, 21, 75);
+	color: #fff;
+}
+
+.boutonr:hover {
+	background: rgb(36, 12, 43);
+}
+
+.boutonr:active {
+	background: rgb(36, 12, 43);
+	top: 5px;
+}
+
+.boutonr:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 140%;
+	width: 60px;
+}
+/*Icône*/
+.icon-cart:before {
+	content: "\f217";
+}

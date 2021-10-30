@@ -1,0 +1,70 @@
+/*Style du bouton*/
+.bouton {
+	border: none;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	transition: all 0.3s;
+	border-radius: 15px;
+}
+
+.bouton:after {
+	content: '';
+	position: absolute;
+	transition: all 0.3s;
+}
+
+.bouton:before {
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+}
+/*Séparation de l'icône et du bouton*/
+.bouton-sep {
+	padding: 12px 50px 16px 100px;
+}
+
+.bouton-sep:before {
+	background: rgba(0,0,0,0.15);
+}
+/*Style général du bouton*/
+.bouton {
+	background: rgb(65, 0, 0);
+	color: #fff;
+}
+
+.bouton:hover {
+	background: rgb(31, 0, 0);
+}
+
+.bouton:active {
+	background: rgb(31, 0, 0);
+	top: 5px;
+}
+
+.bouton:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 140%;
+	width: 60px;
+}
+/*Icône*/
+.icon-cart:before {
+	content: "\f217";
+}

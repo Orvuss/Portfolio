@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>
+            La futaille - Contact
+        </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/Contact.css">
+        <script type="text/javascript" src="../JavaScript/contact.js"></script>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/09b9698f13.js" crossorigin="anonymous"></script> <!--Lien pour fontawesome-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/tout.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/entete.css">
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/slide.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/recherche.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/navbar.css'>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Login/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/barre.css">
+        <script type="text/javascript" src="../JavaScript/recherche.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" href="../Image/logo.jpg">    <!--Favicon-->
+    </head>
+    <body>
+        <div class="tout">
+            <div class="entete">
+                <div class="entete_nomSite">
+                    <a href="Accueil.html"><p>La <span>Fut</span>aille</p></a> <!--Nom du site-->
+                </div>
+                <div class="entete_navbar"> <!--Barre de recherche-->
+                    <form id="searchbox" » method= "get">
+                        <input id="search" name= "q" type= "text" size= "15" placeholder= "Tapez ici..."  onchange="ouvrirPage()"/>
+                        <input id= "button-submit" onclick="ouvrirPage()" type= "submit" value= "Chercher" />
+                    </form>
+                </div>
+                <div class="entete_panier"><a href="Panier.html"> <!--Bouton panier-->
+                    <button class="button button--sacnite button--round-s button--inverted"><i class="fas fa-shopping-cart"></i><span>User</span></button>
+                </a></div>
+                <div class="entete_login"><a href="Login.html"> <!--Bouton login-->
+                    <button class="button button--sacnite button--round-l"><i class="fas fa-user"></i><span>User</span></button>
+                </a></div>
+            </div>
+        </div>
+        <div class="search"> <!--Barre de navigation-->
+            <section>
+                <nav>
+                    <ul class="menuItems">
+                        <li class="menuItems1"><a href='Rouge.html' data-item='Vins'>Vins rouges</a></li>
+                        <li class="menuItems2"><a href='Blanc.html' data-item='Vins'>Vins blancs</a></li>
+                        <li class="menuItems3"><a href='Cidre.html' data-item='Cidres'>Cidres</a></li>
+                        <li class="menuItems4"><a href='Contact.html' data-item='Nous'>Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <div class="contact">   <!--Formulaire contact-->
+            <h1>Nous contacter</h1>
+            <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+                <table class="form-style">
+                    <tr>
+                        <td>
+                            <label>
+                                Votre nom <span class="required">*</span> <!--Nom-->
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" class="long"/>
+                            <span class="error" id="errorname"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Votre adresse e-mail <span class="required">*</span> <!--Mail-->
+                            </label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" class="long"/>
+                            <span class="error" id="erroremail"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Votre message <span class="required">*</span> <!--Message-->
+                            </label>
+                        </td>
+                        <td>
+                            <textarea name="message" class="long field-textarea"></textarea>
+                            <span class="error" id="errormsg"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Envoyer">      
+                            <input type="reset" value="Réinitialiser"> 
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="part">  <!--Partenaire-->
+            <span>Vous pouvez aussi trouver notre partenaire ici</span><br><br>
+            <form method="get" action="../Poelon/Code/HTML/Présentation.html">
+                <button class="poelon">Le petit Poêlon</button>
+            </form>
+        </div>
+    </body>
+</html>

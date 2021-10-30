@@ -1,0 +1,127 @@
+
+nav .menuItems1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+nav .menuItems1 a::before {
+    content: attr(data-item);
+    transition: 1s;
+    color: rgb(149, 54, 179);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+nav .menuItems1 a:hover::before {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+nav .menuItems2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+nav .menuItems2 a::before {
+    content: attr(data-item);
+    transition: 1s;
+    color: rgb(178, 180, 54);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+nav .menuItems2 a:hover::before {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+nav .menuItems3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+nav .menuItems3 a::before {
+    content: attr(data-item);
+    transition: 1s;
+    color: rgb(56, 160, 35);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+nav .menuItems3 a:hover::before {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+nav .menuItems4 a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+nav .menuItems4 a::before {
+    content: attr(data-item);
+    transition: 1s;
+    color: maroon;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+nav .menuItems4 a:hover::before {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+nav .menuItems {
+    list-style: none;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 22%;
+}
+nav .menuItems li {
+    margin: 50px;
+}
+nav .menuItems li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+    transition: all 1s ease-in-out;
+    position: relative;
+}

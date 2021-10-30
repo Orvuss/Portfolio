@@ -1,0 +1,116 @@
+.contact{
+    border: solid invisible;
+    border-radius: 20px;
+    margin-top: -35%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+h1{ /*Configuration du h1*/
+    text-align: center;
+    color: #ccc;
+}
+
+.form-style {
+margin:10px auto;
+width: 400px;
+padding: 20px 12px 10px 20px;
+font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: #ccc;
+}
+
+.form-style td {
+padding: 0;
+display: block;
+list-style: none;
+margin: 10px 0 0 0;
+}
+
+.form-style label{
+margin:0 0 3px 0;
+padding:0px;
+display:block;
+font-weight: bold;
+}
+
+.form-style .required{
+color:red;
+}
+
+.form-style input[type=submit], .form-style input[type=reset]{
+background: maroon;
+padding: 8px 15px 8px 15px;
+border: none;
+color: #fff;
+}
+
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+background: maroon;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+}
+
+.form-style .field-textarea{
+height: 100px;
+}
+
+.form-style input[type=text], 
+.form-style input[type=email],
+textarea{
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+border:1px solid #BEBEBE;
+padding: 7px;
+margin:0px;
+outline: none;  
+}
+
+.form-style .long{
+width: 100%;
+}
+
+.form-style input[type=text]:focus, 
+.form-style input[type=email]:focus,
+.form-style textarea:focus{
+-moz-box-shadow: 0 0 8px maroon;
+-webkit-box-shadow: 0 0 8px maroon;
+box-shadow: 0 0 8px maroon;
+border: 1px solid maroon;
+}
+
+.error{
+color: #D8000C;
+background-color: #FFBABA;
+}
+
+.part{
+    margin-top: 5%;
+    margin-left: 39%;
+    margin-right: 40%;
+}
+
+.part span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: #ccc;
+}
+.part button{
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(253, 122, 0);
+
+    width:100%;
+    margin-bottom: 32px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline:0;
+}
+
+.poelon:focus, .poelon:hover{
+    background-color: rgb(148, 71, 0);
+}

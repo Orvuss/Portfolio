@@ -1,0 +1,125 @@
+/*Style nav*/
+.codrops-links {
+	position: relative;
+	display: inline-block;
+	white-space: nowrap;
+	font-size: 1.25em;
+	text-align: center;
+}
+.codrops-links::after {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 1px;
+	height: 100%;
+	background: maroon;
+	content: '';
+	transform: rotate3d(0, 0, 1, 22.5deg);
+}
+.codrops-icon {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0em 0;
+	width: 1.5em;
+	text-decoration: none;
+}
+.codrops-icon:before {
+	margin: 0 5px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+}
+
+.cf:before,
+.cf:after {
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.support {
+	font-weight: bold;
+	padding: 2em 0 0 0;
+	font-size: 1.4em;
+	color: maroon;
+	display: none;
+}
+.hidden {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	pointer-events: none;
+}
+.container {
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.content {
+	padding: 2em 1em 5em;
+	z-index: 1;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0 0 2em;
+}
+.content p {
+	margin: 1em 0;
+	padding: 0 0 2em;
+	font-size: 0.85em;
+}
+.box {
+	padding: 4.5em 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+/*Header*/
+.codrops-header {
+	padding: 3em 190px 4em;
+	letter-spacing: -1px;
+}
+.codrops-header h1 {
+	font-weight: 200;
+	font-size: 4em;
+	line-height: 1;
+	margin-bottom: 0;
+}
+.codrops-header h1 span {
+	display: block;
+	font-size: 40%;
+	letter-spacing: 0;
+	padding: 0.5em 0 1em 0;
+	color: maroon;
+}
+
+.content--related {
+	text-align: center;
+	font-weight: 600;
+}
+.media-item {
+	display: inline-block;
+	padding: 1em;
+	margin: 1em 0 0 0;
+	vertical-align: top;
+	transition: color 0.3s;
+}
+.media-item__img {
+	opacity: 0.8;
+	max-width: 100%;
+	transition: opacity 0.3s;
+}
+.media-item:hover .media-item__img,
+.media-item:focus .media-item__img {
+	opacity: 1;
+}
+.media-item__title {
+	font-size: 0.85em;
+	margin: 0;
+	padding: 0.5em;
+}

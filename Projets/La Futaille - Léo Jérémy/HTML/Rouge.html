@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>
+            La futaille - Vins rouges
+        </title>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/09b9698f13.js" crossorigin="anonymous"></script> <!--Lien pour fontawesome-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/tout.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/entete.css">
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/slide.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/recherche.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/navbar.css'>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/vicons-font.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Login/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/vicons-font.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/barre.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Rouge/produitsrouge.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/bouton.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="../JavaScript/recherche.js"></script>
+        <link rel="icon" type="image/png" href="../Image/logo.jpg"> <!--Favicon-->
+    </head>
+    <body>
+        <div class="tout">
+            <div class="entete">
+                <div class="entete_nomSite">
+                    <a href="Accueil.html"><p>La <span>Fut</span>aille</p></a> <!--Nom du site-->
+                </div>
+                <div class="entete_navbar"> <!--Barre de recherche-->
+                    <form id="searchbox" » method= "get">
+                        <input id="search" name= "q" type= "text" size= "15" placeholder= "Tapez ici..."  onchange="ouvrirPage()"/>
+                        <input id= "button-submit" onclick="ouvrirPage()" type= "submit" value= "Chercher" />
+                    </form>
+                </div>
+                <div class="entete_panier"><a href="Panier.html"> <!--Bouton panier-->
+                    <button class="button button--sacnite button--round-s button--inverted"><i class="fas fa-shopping-cart"></i></button>
+                </a></div>
+                <div class="entete_login"><a href="Login.html"> <!--BOuton login-->
+                    <button class="button button--sacnite button--round-l"><i class="fas fa-user"></i><span>User</span></button>
+                </a></div>
+            </div>
+        </div>
+        <div class="search"> <!--Barre de navigation-->
+            <section>
+                <nav>
+                    <ul class="menuItems">
+                        <li class="menuItems1"><a href='Rouge.html' data-item='Vins'>Vins rouges</a></li>
+                        <li class="menuItems2"><a href='Blanc.html' data-item='Vins'>Vins blancs</a></li>
+                        <li class="menuItems3"><a href='Cidre.html' data-item='Cidres'>Cidres</a></li>
+                        <li class="menuItems4"><a href='Contact.html' data-item='Nous'>Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <div class="big">
+            <div class="annonce">
+                <div class="unrouge">   <!--Vin rouge 1-->
+                    <img src="../Image/Findabottle.png">
+                    <div class="unrouge_desc">
+                        <span class="unrouge_desc_titre">Domaine Berthelemot Monthélie Rouge 2017</span><br><br>
+                        <span class="unrouge_desc_texte">BOURGOGNE</span><br>
+                        <span class="unrouge_litre">Bouteille 75cl</span>
+                    </div>
+                    <div class="unrouge_payer">
+                        <span class="unrouge_payer_prix">21,30 €</span>
+                        <div class="unrouge_payer_bouton">
+                            <button class="boutonr boutonr boutonr-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="deuxrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">Le Château Montrose est situé sur la commune de Saint-Estèphe sur 95 hectares de vignes qui l’entourent d’un seul 
+                            tenant et bénéficie d’une formidable situation face à la Gironde sur des graves pyrénéennes, mélangées à du sable noir qui devient ferrugineux 
+                            à 60cm de profondeur.
+                        </span>
+                    </div>
+                </div>
+                <div class="troisrouge">    <!--Vin rouge 3-->
+                    <img src="../Image/unico.png">
+                    <div class="troisrouge_desc">
+                        <span class="troisrouge_desc_titre">Unico 2010 - vega sicilia</span><br><br>
+                    <span class="troisrouge_desc_texte">ESPAGNE</span><br>
+                    <span class="troisrouge_litre">Bouteille 75cl</span>
+                    </div>
+                    <div class="troisrouge_payer">
+                        <span class="troisrouge_payer_prix">335,00 €</span>
+                        <div class="troisrouge_payer_bouton">
+                            <button class="boutonr boutonr boutonr-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="annonce">
+                <div class="unrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">Il est difficile de trouver meilleur rapport Qualité/Prix en Bourgogne. 
+                            Ce Monthélie présente de très beaux arômes fruités, des tanins subtiles et fondus et un équilibre parfait entre gourmandise, puissance et tension. 
+                            Un vin croquant et craquant sur une appellation en plein boom !
+                        </span>
+                    </div>
+                </div>
+                <div class="deuxrouge"> <!--Vin rouge 2-->
+                    <img src="../Image/montrose.png">
+                    <div class="deuxrouge_desc">
+                        <span class="deuxrouge_desc_titre">Château Montrose - 2e Cru Classé</span><br><br>
+                        <span class="deuxrouge_desc_texte">BORDEAUX - SAINT-ESTEPHE AOP</span><br>
+                        <span class="deuxrouge_litre">Bouteille 75cl</span>
+                    </div>
+                    <div class="partenariat">   <!--Partenariat avec Poelon-->
+                        <span>Se marie bien avec la</span>
+                        <form method="get" action="../Poelon/Code/HTML/Page-Fromage.html">
+                            <button class="partenariat_bouton">Tomme fumée</button>
+                        </form>
+                    </div>
+                    <div class="deuxrouge_payer">
+                        <span class="deuxrouge_payer_prix">91,10 €</span>
+                        <div class="deuxrouge_payer_bouton">
+                            <button class="boutonr boutonr boutonr-sep icon-cart">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="troisrouge_histoire">
+                    <div class="test_desc">
+                        <span class="test_desc_titre">Vega Sicilia est plus qu'un grand domaine, c'est un véritable mythe vivant.
+                            Une histoire qui a commencé en 1848 et qui se poursuit d'année en année, pour offrir non pas d'excellents vins, 
+                            mais des vins espagnols vraiment sensationnels.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

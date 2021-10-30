@@ -1,0 +1,80 @@
+<html>
+	<head>
+        <title>
+            La futaille - Inscription
+        </title>
+		<meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/09b9698f13.js" crossorigin="anonymous"></script> <!--Lien pour fontawesome-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/tout.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/entete.css">
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/slide.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/recherche.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/navbar.css'>
+        <link rel="stylesheet" type="text/css" href="../CSS/Bouton/normalize.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Bouton/main.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/vicons-font.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Login/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/vicons-font.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Bouton/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Bouton/main.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/barre.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/Accueil/barre.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/connexion.css">
+		<script type="text/javascript" src="../JavaScript/recherche.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" href="../Image/logo.jpg">    <!--Favicon-->
+	</head>
+	<body>
+		<div class="tout">
+            <div class="entete">
+                <div class="entete_nomSite">
+                    <a href="Accueil.html"><p>La <span>Fut</span>aille</p></a> <!--Nom du site-->
+                </div>
+                <div class="entete_navbar"> <!--Barre de recherche-->
+                    <form id="searchbox" » method= "get">
+                        <input id="search" name= "q" type= "text" size= "15" placeholder= "Tapez ici..."  onchange="ouvrirPage()"/>
+                        <input id= "button-submit" onclick="ouvrirPage()" type= "submit" value= "Chercher" />
+                    </form>
+                </div>
+                <div class="entete_panier"><a href="Panier.html"> <!--Bouton parnier-->
+                    <button class="button button--sacnite button--round-s button--inverted"><i class="fas fa-shopping-cart"></i><span>User</span></button>
+                </a></div>
+                <div class="entete_login"><a href="Login.html"> <!--Bouton login-->
+                    <button class="button button--sacnite button--round-l"><i class="fas fa-user"></i><span>User</span></button>
+                </a></div>
+            </div>
+        </div>
+        <div class="search"> <!--Barre de navigation-->
+            <section>
+                <nav>
+                    <ul class="menuItems">
+                        <li class="menuItems1"><a href='Rouge.html' data-item='Vins'>Vins rouges</a></li>
+                        <li class="menuItems2"><a href='Blanc.html' data-item='Vins'>Vins blancs</a></li>
+                        <li class="menuItems3"><a href='Cidre.html' data-item='Cidres'>Cidres</a></li>
+                        <li class="menuItems4"><a href='Contact.html' data-item='Nous'>Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+		<section class="container"> <!--Inscription-->
+			<div>
+				<header>
+					<h2>Inscription</h2>
+				</header>
+				<form action="inscription.php" method="POST">
+					<input type="text" name="userConnexion" placeholder="Nom d'utilisateur" required="required"/>
+                    <input type="text" name="mailConnexion" placeholder="Adresse mail" required="required"/>
+					<input type="password" name="mdpConnexion" placeholder="Mot de passe" required="required"/>
+					<button type="submit">s'incrire</button>
+					<a href="Login.html">Vous connecter</a>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>

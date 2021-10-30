@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>
+            La futaille - Accueil
+        </title>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/09b9698f13.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/tout.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/entete.css">
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/slide.css'>
+        <link rel="stylesheet" type="text/css" href='../CSS/Accueil/recherche.css'>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/vicons-font.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Login/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Login/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/vicons-font.css"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/Panier/base.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Panier/buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/annonce.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/barre.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Accueil/bouton.css"/>
+        <link rel="stylesheet" type="text/css" href="../BacASable/navba.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="../JavaScript/recherche.js"></script>
+        <link rel="icon" type="image/png" href="../Image/logo.jpg">    <!--Petite icone-->
+    </head>
+    <body>
+        <div class="tout">
+            <div class="entete">
+                <div class="entete_nomSite">
+                    <p>La <span>Fut</span>aille</p>
+                </div>
+                <div class="entete_navbar">
+                    <form id="searchbox" » method= "get">
+                        <input id="search" name= "q" type= "text" size= "15" placeholder= "Tapez ici..."  onchange="ouvrirPage()"/>
+                        <input id= "button-submit" onclick="ouvrirPage()" type= "submit" value= "Chercher" />
+                    </form>
+                </div>
+                <div class="entete_panier"><a href="Panier.html">
+                    <button class="button button--sacnite button--round-s button--inverted"><i class="fas fa-shopping-cart"></i><span>User</span></button>
+                </a></div>
+                <div class="entete_login"><a href="Login.html">
+                    <button class="button button--sacnite button--round-l"><i class="fas fa-user"></i><span>User</span></button>
+                </a></div>
+            </div>
+        </div>
+        <div class="search"> <!--Barre de navigation-->
+            <section>
+                <nav>
+                    <ul class="menuItems">
+                        <li class="menuItems1"><a href='Rouge.html' data-item='Vins'>Vins rouges</a></li>
+                        <li class="menuItems2"><a href='Blanc.html' data-item='Vins'>Vins blancs</a></li>
+                        <li class="menuItems3"><a href='Cidre.html' data-item='Cidres'>Cidres</a></li>
+                        <li class="menuItems4"><a href='Contact.html' data-item='Nous'>Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <div class="theslide">
+            <div id="slider">
+                <figure>        <!--Défilement des photos-->
+                    <img src='../Image/vin-rouge.jpg'>
+                    <img src='../Image/vinblanc.jpg'>
+                    <img src='../Image/cidreslide.jpg'>
+                    <img src='../Image/rak.jpg'>
+                    <img src='../Image/vin-rouge.jpg'>
+                </figure>
+            </div>
+        </div>
+        <div class="annonce"> <!--Carré présentant les vins de moyenne gamme-->
+            <div class="bestrouge"> <!--Vin rouge d moyenne gamme-->
+                <img src="../Image/montrose.png">
+                <div class="bestrouge_desc">
+                    <span class="bestrouge_desc_titre">Château Montrose - 2e Cru Classé</span><br><br>
+                    <span class="bestrouge_desc_texte">BORDEAUX - SAINT-ESTEPHE AOP</span><br>
+                    <span class="bestrouge_litre">Bouteille 75cl</span>
+                </div>
+                <div class="bestrouge_payer">
+                    <span class="bestrouge_payer_prix">91,10 € TTC</span>
+                    <div class="bestrouge_rouge_bouton">
+                        <button class="bouton bouton bouton-sep icon-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bestblanc"> <!--Vin blanc de moyenne gamme-->
+                <img src="../Image/meursault2018.png">
+                <div class="bestblanc_desc">
+                    <span class="bestblanc_desc_titre">Meursault Perrieres - 1er Cru</span><br><br>
+                    <span class="bestblanc_desc_texte">BOURGOGNE - CHARDONNAY AOC</span><br>
+                    <span class="bestblanc_litre">Bouteille 75cl</span>
+                </div>
+                <div class="bestblanc_payer">
+                    <span class="bestblanc_payer_prix">84,90 € TTC</span>
+                    <div class="bestblanc_payer_bouton">
+                        <button class="bouton bouton bouton-sep icon-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bestcidre"> <!--Cidre-->
+                <img src="../Image/Cidre_Fouesnant.png">
+                <div class="bestcidre_desc">
+                    <span class="bestcidre_desc_titre">Cidre de Fouesnant</span><br><br>
+                    <span class="bestcidre_desc_texte">MANOIR DE KINKIZ</span>
+                    <span class="bestcidre_litre">Bouteille 75cl</span>
+                </div>
+                <div class="bestcidre_payer">
+                    <span class="bestcidre_payer_prix">3,50 € TTC</span>
+                    <div class="bestcidre_payer_bouton">
+                        <button class="bouton bouton bouton-sep icon-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

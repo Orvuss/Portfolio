@@ -1,0 +1,219 @@
+.big{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.annonce{
+    margin-top: 2%;
+    height:80%;
+    width:50%;
+}
+
+/* Carré contenant le vin rouge */
+
+.bestrouge{
+    margin: 1%;
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../Image/fondbois.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.bestrouge2{
+    margin: 1%;
+    height: 65%;
+    width: 98%;
+    border-radius: 20px;
+}
+
+.bestrouge img {
+    margin-top: 7%;
+    margin-left: 12%;
+    width: 12%;
+    height: 70%;
+}
+
+.bestrouge_desc{
+    position: absolute;
+    margin-top: 5%;
+    height: 20%;
+    margin-left: 14%;
+    width: 30%;
+}
+
+.bestrouge_desc_titre{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bestrouge_desc_texte{
+    color: white;
+    font-size: 25px;
+}
+.bestrouge_litre{
+    color: white;
+}
+
+.bestrouge_payer{
+    position: absolute;
+    display: flex;
+    margin-top: 16%;
+    margin-left: 13%;
+    width: 10%;
+}
+
+.bestrouge_payer_prix{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 45px;
+    color: red;
+}
+
+.test_desc{
+    position: absolute;
+    margin-top: 7%;
+    height: 20%;
+    margin-left: 5%;
+    width: 40%;
+}
+.test_desc_titre{
+    margin-right: 10%;
+    font-size: 30px;
+}
+
+/* Carré contenant le vin blanc */
+
+.bestblanc{
+    margin-right: -50%;
+    margin: 1%;
+    height: 65%;
+    width: 98%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../Image/fondbois.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.bestblanc2{
+    margin-right: -50%;
+    margin: 1%;
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bestblanc img {
+    margin-top: 7%;
+    margin-left: 12%;
+    width: 12%;
+    height: 70%;
+}
+
+.bestblanc_desc{
+    position: absolute;
+    margin-top: 5%;
+    height: 20%;
+    margin-left: 14%;
+    width: 30%;
+}
+
+.bestblanc_desc_titre{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bestblanc_desc_texte{
+    color: white;
+    font-size: 25px;
+}
+.bestblanc_litre{
+    color: white;
+}
+
+.bestblanc_payer{
+    position: absolute;
+    display: flex;
+    margin-top: 16%;
+    margin-left: 13%;
+    width: 10%;
+}
+
+.bestblanc_payer_prix{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 45px;
+    color: red;
+}
+
+/* Carré contenant le Cidre */
+
+.bestcidre{
+    margin: 1%;
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid black;
+    background: url("../Image/fondbois.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.bestcidre2{
+    margin: 1%;
+    height: 65%;
+    width: 98%;
+    border-radius: 20px;
+}
+
+.bestcidre img {
+    margin-top: 7%;
+    margin-left: -2%;
+    width: 35%;
+    height: 70%;
+}
+
+.bestcidre_desc{
+    position: absolute;
+    margin-top: 5%;
+    height: 20%;
+    margin-left: 14%;
+    width: 30%;
+}
+
+.bestcidre_desc_titre{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bestcidre_desc_texte{
+    color: white;
+    font-size: 25px;
+}
+.bestcidre_litre{
+    color: white;
+}
+
+.bestcidre_payer{
+    position: absolute;
+    display: flex;
+    margin-top: 16%;
+    margin-left: 13%;
+    width: 10%;
+}
+
+.bestcidre_payer_prix{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 45px;
+    color: red;
+}

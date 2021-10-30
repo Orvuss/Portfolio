@@ -1,0 +1,126 @@
+/*Style*/
+.button {
+	display: block;
+	margin: -2.2em;
+	padding: 1em 2em;
+	color: inherit;
+	position: absolute;
+	z-index: 1000;
+	-moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+	outline: none;
+}
+/*Couleur*/
+.bg-1 .button {
+	color: #37474f;
+	border-color: #37474f;
+}
+.bg-2 .button {
+	color: #ECEFF1;
+	border-color: #ECEFF1;
+}
+.bg-3 .button {
+	color: #fff;
+	border-color: #fff;
+}
+/*Taille*/
+.button--size-s {
+	font-size: 14px;
+}
+.button--size-m {
+	font-size: 16px;
+}
+.button--size-l {
+	font-size: 18px;
+}
+/*Police*/
+.button--text-upper {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.button--text-thin {
+	font-weight: 300;
+}
+.button--text-medium {
+	font-weight: 500;
+}
+.button--text-thick {
+	font-weight: 600;
+}
+.button--round-s {
+	border-radius: 5px;
+}
+.button--round-m {
+	border-radius: 15px;
+}
+.button--round-l {
+	border-radius: 40px;
+}
+/*Bordure*/
+.button--border-thin {
+	border: 1px solid;
+}
+.button--border-medium {
+	border: 2px solid;
+}
+.button--border-thick {
+	border: 3px solid;
+}
+/* Sacnite */
+.button.button--sacnite {
+	width: 70px;
+	height: 70px;
+	min-width: 0;
+	padding: 0;
+	color: #fff;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+.button--scanite.button--round-l {
+	border-radius: 50%;
+}
+.button--sacnite.button--inverted {
+	color: black;
+}
+.button--sacnite::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+	z-index: -1;
+	box-shadow: inset 0 0 0 35px maroon;
+	-webkit-transform: scale3d(0.9, 0.9, 1);
+	transform: scale3d(0.9, 0.9, 1);
+	-webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
+	transition: box-shadow 0.3s, transform 0.3s;
+}
+.button--sacnite.button--inverted::before {
+	box-shadow: inset 0 0 0 35px #fff;
+}
+.button--sacnite .button__icon {
+	font-size: 22px;
+	width: 22px;
+}
+.button--sacnite > span {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+.button--sacnite:hover {
+	color: maroon;
+}
+.button--sacnite.button--inverted:hover {
+	color: #fff;
+}
+.button--sacnite:hover::before {
+	box-shadow: inset 0 0 0 2px maroon;
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+}
+.button--sacnite.button--inverted:hover::before {
+	box-shadow: inset 0 0 0 2px #fff;
+}
