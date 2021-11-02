@@ -73,7 +73,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color:darkgreen;
+    color:rgb(0, 100, 0);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -244,9 +244,8 @@ section .title::after{
   
   .desc {
     margin: 1em 0.75em 0 0;
-    
+    color : white;
     font-size: 0.77777em;
-    font-style: italic;
     line-height: 1.5em;
   }
   
