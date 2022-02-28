@@ -459,6 +459,129 @@ section .title::after{
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
+
+.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  .modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal-window > div {
+    width: 1000;
+    height: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #111;
+  }
+  .modal-window header {
+    font-weight: bold;
+  }
+  .modal-window h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+  }
+  
+  .modal-close {
+    line-height: 20px;
+    font-size: 30%;
+    position: absolute;
+    right: 10;
+    text-align: center;
+    top: 10;
+    width: 40px;
+    text-decoration: none;
+  }
+  .modal-close:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  .modal-window > div {
+    border-radius: 1rem;
+  }
+  
+  .modal-window div:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+  
+  small {
+    color: lightgray;
+  }
+  
+  .auto-slider{
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    padding: 10px 10px 20px;
+    background: #fff;
+    max-width: 600px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+
+}
+
+
+@keyframes sliding{
+            0%{left: 0%; }
+            20%{left: -100%;}
+            40%{left: -200%;}
+            60%{left: -300%;}
+            80%{left: -400%;}
+            100%{left: 0%;}
+        }        
+        
+@keyframes indicating{
+            from{
+                left: -100%;
+            }
+            to{
+                left: 0;
+            }
+}  
+        
+        
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 25s sliding ease infinite; 
+}
+
+/* Slider indicator */
+.indicator{
+    width: 100%;
+    max-width: 720px;
+    height: 6px;
+    background: #e41b17;
+    position: absolute;
+    bottom: 0;
+    
+    animation: indicating 5s ease infinite; 
+    
+}
+
+
 .services .serv-content .card i{
     font-size: 50px;
     color: darkgreen;
