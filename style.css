@@ -238,7 +238,7 @@ section .title::after{
   
   .time {
     display: inline-block;
-    padding: 4px 6px;
+    padding: 4px 1px;
   }
   
   .desc {
