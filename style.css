@@ -516,6 +516,59 @@ section .title::after{
   .modal-window div:not(:last-of-type) {
     margin-bottom: 15px;
   }
+
+  /* Mon bouton */
+  @-webkit-keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 var(--hover)
+	}
+}
+
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover)
+        }
+    }
+
+.raise:focus,
+.raise:hover {
+	box-shadow: 0 .5em .5em -.4em var(--hover);
+	transform: translateY(-.25em)
+}
+
+.raise {
+	--color: white;
+	--hover: darkgreen
+}
+
+.raise a {
+    color: white;
+}
+
+button {
+	color: var(--color);
+	transition: .25s
+}
+
+button:focus,
+button:hover {
+	border-color: var(--hover);
+	color: #fff
+}
+
+
+button {
+	background: 0 0;
+	border: 2px solid;
+	font: inherit;
+	line-height: 1;
+	margin: 1.5em;
+	padding: 1em 2em
+}
+
+
+  /* FIN */
+  
   
   small {
     color: lightgray;
